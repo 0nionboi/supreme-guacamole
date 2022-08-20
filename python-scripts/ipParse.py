@@ -5,7 +5,7 @@ ipParse.py - takes input from a text file or clipboard, and returns a list of IP
 Created originally to parse IP outputs from Nessus scans.
 '''
 
-import sys, re # removed pyperclip because multipass
+import sys, re # removed pyperclip because multipass clipboard issues (HyperV?)
 
 # Regex pattern for finding the IP addresses
 ipPattern = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
