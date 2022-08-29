@@ -17,4 +17,16 @@ pip3 install -r requirements.txt
 
 # After this you can run 'pip3 list' to make sure you have the dependencies installed.
 ```
+## lftwa
+This folder holds the markdown file for "Linux for the Windows Administrator" - a cheatsheet I am writing aimed at helping windows administrators with little-to-no linux experience.
+
+## lpthw
+Holds my work from the book "Learn Python the Hard Way".  Includes requirements.txt for the virtual environment I used.
+
+## python-scripts
+Holds a series of miscellaneous python scripts that I've worked on.  Refer to the documentation in each folder.
+- ipParse.py - takes a file with a list of IPs and ports, and parses them into seperate files for use with nmap.
+
+## regex
+Holds my work from a python regex workbook.
 
